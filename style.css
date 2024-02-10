@@ -1,20 +1,17 @@
-/* Don't change the existing CSS. */
-
-.box {
-  background-color: blue;
-  padding: 10px;
+/* Write your code here: */
+/* Group */
+h1, h2 {
+  color: blueviolet;
 }
-p {
-  color: yellow;
-  margin: 0;
-  padding: 0;
+.box > p {
+color: firebrick;
 }
-.white-text {
-  color: white;
+.box li {
+  color: blue;
 }
-.inner-box {
-  background-color: red;
+li.done {
+  color: seagreen;
 }
-#outer-box  {
-  background-color: purple;
+ul p.done  {
+  font-size: 0.5rem;
 }
